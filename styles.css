@@ -6,7 +6,7 @@
 
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: black;
 }
 
 #about .container{
@@ -15,18 +15,18 @@
     font-size: 1.5em;
     display:block;
     margin: 0 auto;
-    color: white;
+    color: black;
 }
 body{
-    background: #080808;
-    color: #fff;
+    background: white;
+    color: black;
 }
 
 .btn{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #FF2171;
+    border: 1px solid #244ccb;
     padding :14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -36,7 +36,7 @@ body{
 
 .btn2{
     display: inline-block;
-    background: #FF2171;
+    background: #244ccb;
 }
 
 .btn3{
@@ -49,7 +49,7 @@ margin-left: 0;
 }
 
 .btn:hover{
-    background: #FF2171;
+    background: #244ccb;
 }
 
 #contact{
@@ -69,7 +69,7 @@ margin-left: 0;
 }
 
 .contact-left p i{
-    color: #FF2171;
+    color: #244ccb;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -87,7 +87,7 @@ margin-left: 0;
 }
 
 .container nav h1 span{
-    color: #FF2171;
+    color: #244ccb;
 }
 
 form input,form textarea{
@@ -107,7 +107,8 @@ form input,form textarea{
     margin: 0;
     text-align: center;
     padding-bottom: 30px;
-    background-color: #fa2271;
+    background-color: #1c3483
+    ;
 }
 
 .footer p i{
@@ -131,13 +132,13 @@ form input,form textarea{
 }
 
 .header-text h1 span{
-    color: #FF2171;
+    color: #244ccb;
 }
 
 .layer{
-    width: 100%;
+    width: 100%;  
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#FF2171);
+    background: linear-gradient(rgba(0,0,0,0.6),#244ccb);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -161,7 +162,7 @@ form input,form textarea{
 .layer a{
     padding: 10px;
     margin-top: 20px;
-    color: #FF2171;
+    color: #244ccb;
     text-decoration: none;
     font-size: 18px;
     background: #fff;
@@ -175,7 +176,7 @@ form input,form textarea{
 
 nav{
     display: flex;
-    background-color: #080808;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -195,7 +196,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -205,7 +206,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #FF2171;
+    background: #244ccb;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -258,7 +259,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 50px;
     font-weight: 600;
-    color: #fff;
+    color: black;
     margin:0;
 }
 
@@ -280,7 +281,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #FF2171;
+    background: #244ccb;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -302,7 +303,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #FF2171;
+    color: #244ccb;
 }
 
 .tab-contents.active-tab{
@@ -363,7 +364,7 @@ nav .fas{
     }     
 
     nav ul{
-        background: #FF2171;
+        background: #244ccb;
         position: fixed;
         top: 0;
         right: -200px;
